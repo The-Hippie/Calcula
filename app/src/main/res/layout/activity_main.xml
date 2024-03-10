@@ -60,6 +60,8 @@
                 android:text=""
                 android:textSize="25sp" />
 
+
+
         </LinearLayout>
 
         <Button
@@ -68,6 +70,14 @@
             android:layout_height="60dp"
             android:onClick="calcularSuma"
             android:text="Calcular"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/btnCientifica"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Cientifica"
+            android:onClick="Nuevavista"
             android:textSize="25sp"/>
 
     </LinearLayout>
