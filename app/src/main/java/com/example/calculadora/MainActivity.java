@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
     public void calcularSuma(View view) {
         EditText edtVal1 = findViewById(R.id.edtVal1);
         EditText edtVal2 = findViewById(R.id.edtVal2);
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
